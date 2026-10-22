@@ -24,7 +24,7 @@ Random Forest regression on monthly features: rainfall, previous-month rainfall,
 
 ## Results
 
-![Validation ladder](/validation_ladder.png)
+![Validation ladder](validation_ladder.png)
 
 **Early single-year table (300 points)**
 
@@ -53,8 +53,8 @@ Most of GRACE's signal over Nigeria is the seasonal cycle. Predicting raw values
 
 ## 0.05° map (August 2015, held out of training)
 
-![Downscaled map](/downscaled_map.png)
-![Consistency check](/consistency_check.png)
+![Downscaled map](downscaled_map.png)
+![Consistency check](consistency_check.png)
 
 Averaged back to 1° (94 GRACE cells), the map's RMSE was **0.033 cm** against **0.038 cm** for a constant "August normal" baseline, with a correlation of 0.51. The slope of predicted against true was 0.24, so the map compresses between-cell differences to roughly half of GRACE's. This is a coarse consistency check on one month. It does not validate fine-scale detail, which would need independent well data.
 
